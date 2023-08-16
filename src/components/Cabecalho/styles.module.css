@@ -10,7 +10,8 @@
 
 .cabecalho li{
     color: white;
-    /* position: relative; */
+    font-size: 14px;
+    font-family: sans-serif, 'Quicksand';
     float: left;
     list-style: none;
     margin-top: 15px;

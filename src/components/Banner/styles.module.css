@@ -1,0 +1,30 @@
+.banner img{
+    width: 1920px;
+    display: inline-block;
+    position: relative;
+}
+
+.banner .logo{
+    position: absolute;
+    top: 150px;
+    width: 64px;
+    height: 64px;
+    left:870px;
+}
+
+.banner .titulo{
+    background-color: rgba(34, 82, 67, 0.8);
+    width: 523px;
+    height: 83px;
+    position: absolute;
+    top: 280px;
+    right: 740px;
+}
+
+.titulo h1{
+    font-size: 48px;
+    font-family: sans-serif, 'Quicksand';
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}

@@ -1,0 +1,48 @@
+/* .card{
+    width: 387px;
+    height: 390px;
+    border-radius: 20px 20px 20px 20px;
+    border: solid 1px green;
+    background-color: gray;
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    margin-top: 20px;
+} */
+
+.card{
+    width: 387px;
+    height: 390px;
+    border-radius: 20px 20px 20px 20px;
+    border: solid 1px green;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .titulo{
+    font-size: 32px;
+    font-family: sans-serif, 'Quicksand';
+    color: black;
+    position: absolute;
+    text-align: center;
+    text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+.card p{
+    font-size: 14px;
+    font-family: sans-serif, 'Quicksand';
+    padding: 20px;
+    padding-top: 25px;
+}
+
+.card .legenda{
+    top: -15px;
+}

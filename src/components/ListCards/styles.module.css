@@ -1,0 +1,6 @@
+.listaCards{
+    margin-left: 340px;    
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
